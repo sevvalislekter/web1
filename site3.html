@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Şikayet kutusu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 >Şikayet kutusu</h1>
+    <img src="Engagement Wishes Message Keepsake Drop Box Guest Book with Message Cards.jpg">
+    <img src="Starlight LED Birthday Wish Box - 70th.jpg" alt="Sadece 150TL">
+    <img src="CUSTOM KEEPSAKE BOX - acrylic lid.jpg" alt="200TL">
+    <ul id="kart">
+        <li><input type="checkbox">Evlilik kartı</li>
+        <li><input type="checkbox">Doğum günü kartı</li>
+        <li> <input type="checkbox">Baby shower</li>
+        <li><input type="checkbox">Tebrik kartı</li>
+    </ul>
+
+    <form>
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname">
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname">
+        <label for="Message">Message:</label>
+        <input type="text" id="mes" name="mes">
+        
+        <button onclick="tikla()">Submit</button>
+      </form>
+   
+      <script>
+       function tikla(){
+        document.getElementById("mes").value = "Teşekkürler...";
+        alert("teşekkürler");
+        window.open("https://www.yandex.com.tr/search?text=gmail&source=tabbar&lr=107756"); // Yeni bir sayfa açmak için
+    }
+      </script>
+</body>
+</html>
